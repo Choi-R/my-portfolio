@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
 }
 
 .header {
@@ -11,26 +12,13 @@
 }
 .header h1 {
   font-size: 70px;
-  background: #b2fcff;
-  opacity: 0.7;
-  margin: 0px 0px 70px 0px
-}
-.header h1:hover {
-  opacity: 1;
+  background: #5edfff;
+  margin: 0px 0px 70px 0px;
 }
 .header p {
   font-size: 40px;
-  background: #b2fcff;
-  opacity: 0.5;
+  background: #5edfff;
   margin: 130px 0px 0px 0px;
-}
-.header p:hover {
-  opacity: 1;
-}
-img {
-  width: 300px;
-  height: 400px;
-  float: left;
 }
 
 .navbar {
@@ -71,4 +59,41 @@ img {
   padding: 20px;
   text-align: center;
   background: #5edfff;
+}
+
+.footer h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 870px) {
+  .header {
+    padding: 40px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+  }
+
+  .header h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding: 40px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-image: none;
+    background-color: #ecfcff;
+    color: black;
+  }
+
+  .header h1 {
+    font-size: 60px;
+  }
 }
